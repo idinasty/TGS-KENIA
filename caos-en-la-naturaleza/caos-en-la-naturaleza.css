@@ -1,0 +1,154 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* CÓDIGO CSS */
+header {
+    background-color: #821417;
+    width: 100%;
+    padding: .6em;
+}
+
+header .name {
+    position: relative;
+    margin-top: -2em;
+    padding-top: 2.4em;
+    margin-left: 34em;
+}
+
+@font-face {
+    font-family: 'text';
+    src: url('../Inter-VariableFont_slnt\,wght.ttf');
+}
+@font-face {
+    font-family: 'text2';
+    src: url('../Inter-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'text3';
+    src: url('../Inter-Light.ttf');
+}
+@font-face {
+    font-family: 'text4';
+    src: url('../Inter-Medium.ttf');
+}
+@font-face {
+    font-family: 'text5';
+    src: url('../Inter-Regular.ttf');
+}
+@font-face {
+    font-family: 'text6';
+    src: url('../Inter-Bold.ttf');
+}
+
+h1 {
+    font-family: 'text3';
+    position: absolute;
+    top: 3em;
+    left: 12em;
+}
+
+p {
+    font-family: 'text5';
+    width: 56em;
+    position: absolute;
+    top: 10em;
+    left: 19em;
+}
+
+.text-and-img {
+    display: flex;
+    margin-top: 2em;
+}
+
+.text-and-img img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    margin-left: 19.2em;
+    margin-top: 7em;
+}
+
+.text-and-img p {
+    width: 36em;
+    margin-top: 5.4em;
+    margin-left: 19em;
+    font-size: 13px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 11em;
+    height: 11em;
+    object-fit: cover;
+    margin-left: 19.2em;
+    margin-top: 3.5em;
+}
+
+.container p {
+    width: 26em;
+    margin-top: 37em;
+    font-size: 13px;
+    margin-left: 4.5em;
+}
+
+.text2 {
+    position: absolute;
+    width: 26em;
+    top: 24em;
+    font-size: 13px;
+    margin-left: 9.5em;
+    padding-bottom: 3em;
+}
+
+.container-right {
+    margin-top: -53.94em;
+    position: absolute;
+    width: 340px;
+    height: 498px;
+    left: 689px;
+    top: 1284px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+h4 {
+    font-family: 'text5';
+    border-bottom: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: .8em;
+    margin-top: .9em;
+    padding-left: 2em;
+}
+
+a {
+    font-family: 'text6';
+    color: #0A5CB8;
+    font-size: 14px;
+    padding-left: 12px;
+    font-weight: bold;
+}
